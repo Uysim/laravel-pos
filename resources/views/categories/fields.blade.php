@@ -15,7 +15,7 @@
       {{Form::label('description', 'Description')}}
     </div>
     <div class="col-xs-12 col-md-9">
-      {{Form::text( 'description', $category->description, ['class'=>'form-control'] )}}
+      {{Form::textarea( 'description', $category->description, ['class'=>'form-control'] )}}
     </div>
   </div>
 </div>

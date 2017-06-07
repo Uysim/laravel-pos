@@ -14,3 +14,4 @@
 Route::get('/', 'PagesController@home');
 
 Route::resource('categories', 'CategoriesController');
+Route::resource('products', 'ProductsController');
